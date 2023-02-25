@@ -1,0 +1,59 @@
+body{
+    background: url("../images/loginjr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    margin-left: 50%;
+    margin-top: 30px;
+  }
+
+.modal-login {
+    color: #636363;
+    width: 500px;
+    margin: 30px auto;
+}
+.modal-login .modal-content {
+    padding: 60px;
+    border-radius: 15px;
+    border: none;
+    /*background-color: #ffffffe3;*/
+}
+.modal-login .modal-header {
+    border-bottom: none;
+    position: relative;
+    justify-content: center;
+}
+.modal-login h4 {
+    text-align: center;
+    font-size: 36px;
+}
+.modal-login  .form-group {
+    position: relative;
+}
+.modal-login i {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    font-size: 22px;
+}
+.modal-login .form-control {
+    padding-left: 40px;
+}
+
+.modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 30px; 
+}
+
+.modal-login .btn {
+    border: none;
+    line-height: normal;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+    background: #007ACC;
+}
+.color{
+    background: #4b5465;
+}
+
+
